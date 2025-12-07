@@ -4,7 +4,7 @@ import { ChevronLeft } from "lucide-react";
 
 // ================== OpenAI 설정 ==================
 const client = new OpenAI({
-  apiKey: "여기에_네_API키_입력", // <- 여기다가 키 넣으면 됨
+  apiKey: "여기에_API키_입력", // <- 여기다가 키 넣으면 됨
   dangerouslyAllowBrowser: true, // 프론트에서 직접 호출할 때 필수
 });
 
